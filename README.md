@@ -8,9 +8,19 @@ free to fork the project and convert it to something else.
 The intent of this project is to be a simple way to spin up a new Angular website. It takes care of a vast majority of the compilation and 
 setup, allowing you to focus on the frontend code instead of worrying about things like minification and concatination.
 
-## Deendencies
+## Dependencies
 
 - NPM - NPM will install everything you need to run this app
+
+## Installation
+
+```bash
+git clone git@github.com:ajbogh/gulp-angular2-quickstart.git
+# You can rename the directory here
+# mv gulp-angular2-quickstart your-projet-name
+cd gulp-angular2-quickstart
+npm install
+``` 
  
 ## Structure
 
