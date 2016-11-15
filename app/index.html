@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Angular QuickStart JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <% styles.forEach( function ( file ) { %> <link rel="stylesheet" href="<%= file %>">
+    <% }); %>
+
+    <!-- Load libraries -->
+    <script src="assets/js/vendor.js"></script>
+
+    <% scripts.forEach( function ( file ) { %> <script type="text/javascript" src="<%= file %>"></script>
+    <% }); %>
+</head>
+
+<!-- 3. Display the application -->
+<body>
+    <my-app>Loading...</my-app>
+</body>
+
+</html>
